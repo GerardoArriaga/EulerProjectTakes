@@ -1,0 +1,7 @@
+This is my take to the first problem of the Euler Project!
+
+The specification of the problem can be read here: https://projecteuler.net/problem=1
+
+This is a fairly simple problem! We can create a loop that counts from 1 to N, and test whether the counter is a multiple of 3 or 5 and add it to a total sum variable. When the loop ends, we should have tested every number without fault.
+
+I do not find any room for optimization, but I may edit this entry if I find any!
