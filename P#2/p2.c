@@ -24,7 +24,7 @@ int main(void)
 
 	} while (f_next <= LMT);
 
-	printf("The sum of all even Fibonacci numbers less than %d is %d.\n", LMT, sum);
+	printf("The sum of all even Fibonacci numbers less than or equal to %d is %d.\n", LMT, sum);
 	
 	return 0;
 }
