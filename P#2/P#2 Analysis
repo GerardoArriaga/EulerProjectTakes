@@ -1,0 +1,17 @@
+The specification of this problem can be found here: https://projecteuler.net/problem=2
+
+This problem is quite interesting, since it involves Fibonacci numbers! Their definition is pretty known, but
+if you need reminding, here's the Wikipedia page about their definition: https://en.wikipedia.org/wiki/Fibonacci_number
+
+The solution involves the same generator for Fibonacci Numbers. I am going to talk about the important part right now,
+since the generator for the Fibonacci Numbers is quite trivial. However, I will explain the generator for
+Fibonacci numbers at the end of this analysis.
+
+The approach is, I would say, the most common. In this approach, we may want to check the current Fibonacci number
+for their parity (if it is even or odd). If the current Fibonacci number is even, then we add it to our sum, else we
+skip to the next Fibonacci number. We will run the loop until the next Fibonacci number is greater than 4 million.
+
+Our Fibonacci generator is quite conventional: We will have three variables: one called F_prev, F_crnt, and F_next,
+where each will account for the previous, current, and next Fibonacci number respectively. 
+F_prev and F_crnt will be initialized to 0 and 1 respectively. We will use the definition of the Fibonacci
+numbers to generate the next number in the sequence and then essentially move forward the values of F_prev and F_crnt.
