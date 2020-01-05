@@ -22,4 +22,6 @@ int main(void)
 	}
 
 	printf("The sum of all natural numbers less than %d that are multiple of 3 or 5 is %d.\n", N, sum);
+	
+	return 0;
 }
